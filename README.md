@@ -32,7 +32,8 @@ To get a local copy of this project up and running, follow these steps:
 
 ## Node.js
 
-This project uses Node.js for [purpose of using Node.js]. Node.js allows us to [brief description of how Node.js is used in the project].
+This project uses Node.js to handle server-side operations, such as processing requests, managing data, and interacting with databases. Node.js provides a non-blocking, event-driven architecture, allowing the server to handle multiple concurrent connections efficiently. Additionally, Node.js allows us to build scalable and real-time applications, making it well-suited for this portfolio website.
+
 
 ## Contributing
 
