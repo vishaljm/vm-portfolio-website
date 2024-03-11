@@ -1,0 +1,45 @@
+.synopsis-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent content overflow */
+  }
+  
+  .paper-container {
+    background-color: white;
+    width: 21cm; /* A4 width */
+    max-width: 90%; /* Adjusting width for smaller screens */
+    padding: 2cm; /* Creating margin within the paper */
+    margin-top: 50px; /* Adjust this value as needed */
+    color: black; /* Setting text color to black */
+    border-radius: 10px; /* Rounding the corners */
+    border: 2px solid #ddd; /* Adding a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow */
+  }
+  
+  .paper-container h1 {
+    font-family: "Arial", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .paper-container p {
+    font-family: "Lobster", cursive;
+    font-size: 18px; /* Increased font size */
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  .typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end) forwards;
+  }
+  

@@ -1,0 +1,68 @@
+/* Wave.css */
+
+.wave-container {
+  position: relative;
+  overflow: hidden;
+  height: 42px; /* Adjust the height as needed */
+}
+
+.wave {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent 20%,
+    #4565a354 40%, /* Change the color stop positions to create a wave effect */
+    transparent 60%,
+    #4565a354 80%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: wave-animation 10s linear infinite;
+  animation-play-state: paused; /* Start paused */
+}
+
+.headline {
+  position: absolute;
+  top: 50%; /* Center align vertically */
+  right: 0%; /* Start the text from the right */
+  transform: translate(0, -50%); /* Center align horizontally */
+  white-space: nowrap; /* Prevent the text from wrapping to the next line */
+  font-size: 20px; /* Adjust the font size as needed */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #462121b4; /* Change to your desired text color */
+  /* Add any other text styles you want */
+  font-weight: 500;
+  animation: scroll-text 30s linear infinite; /* Adjust the animation duration for text scrolling */
+  animation-play-state: paused; /* Start paused */
+}
+
+/* Add animation classes */
+.wave-loaded .wave {
+  animation-play-state: running;
+}
+
+.animate-headline {
+  animation-play-state: running;
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes scroll-text {
+  0% {
+    right: -100%; /* Start the text from the right (outside the container) */
+  }
+  100% {
+    right: 100%; /* Move the text to the left (outside the container) */
+  }
+}
+
+
