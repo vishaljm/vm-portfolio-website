@@ -14,12 +14,12 @@ I am Vishal, a 25-year-old professional with a Master's degree in IT. I speciali
 
 ## Built With
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [React](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Node.js](https://nodejs.org/)
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Bootstrap
+- Node.js
 
 ## Getting Started
 
@@ -44,11 +44,11 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-Please make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) and [contribution guidelines](CONTRIBUTING.md) when contributing to this project.
+Please make sure to follow the code of conduct and contribution guidelines when contributing to this project.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## Contact
 
