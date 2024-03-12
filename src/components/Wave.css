@@ -3,7 +3,7 @@
 .wave-container {
   position: relative;
   overflow: hidden;
-  height: 42px; /* Adjust the height as needed */
+  height: 42px; 
 }
 
 .wave {
@@ -13,7 +13,7 @@
   background: linear-gradient(
     to right,
     transparent 20%,
-    #4565a354 40%, /* Change the color stop positions to create a wave effect */
+    #4565a354 40%,
     transparent 60%,
     #4565a354 80%,
     transparent 100%
