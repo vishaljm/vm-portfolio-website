@@ -5,19 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Prevent content overflow */
+    overflow: hidden;
   }
   
   .paper-container {
     background-color: white;
-    width: 21cm; /* A4 width */
-    max-width: 90%; /* Adjusting width for smaller screens */
-    padding: 2cm; /* Creating margin within the paper */
-    margin-top: 50px; /* Adjust this value as needed */
-    color: black; /* Setting text color to black */
-    border-radius: 10px; /* Rounding the corners */
-    border: 2px solid #ddd; /* Adding a border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adding a subtle shadow */
+    width: 21cm; 
+    max-width: 90%; 
+    padding: 2cm; 
+    margin-top: 50px; 
+    color: black; 
+    border-radius: 10px; 
+    border: 2px solid #ddd; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
   }
   
   .paper-container h1 {
@@ -27,7 +27,7 @@
   
   .paper-container p {
     font-family: "Lobster", cursive;
-    font-size: 18px; /* Increased font size */
+    font-size: 18px; 
     line-height: 1.6;
     margin-bottom: 15px;
   }
